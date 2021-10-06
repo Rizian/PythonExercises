@@ -1,10 +1,10 @@
 '''
 Slope of a line
 
-1. Input = x1,x2,y1,y2
-2. convert all variables to floats
-3. calculate and store value on var slope
-4. Output = return slope value to 5 decimal places
+1. Input = enter variables x1, x2, y1, and y2.
+2. convert all variables to floats.
+3. calculate and store value on var slope.
+4. Output = return slope value to 5 decimal places.
 '''
 
 x1, y1 = input("Enter the coordinates of point 1 (x, y): ").split(sep=", ")
@@ -17,4 +17,4 @@ y2 = float(y2)
 
 slope = (y2 - y1) / (x2 - x1)
 
-print("The slope of between the two points is {0:0.5f}.".format(slope))
+print("The slope of between the points ({0}, {1}) and ({2}, {3}) is {4:0.5f}.".format(x1, y1, x2, y2, slope))
