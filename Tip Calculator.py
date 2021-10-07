@@ -12,7 +12,7 @@ Subtotal = round(float(input("Enter subtotal: $")), 2)
 Tip_percent = float(input("Enter tip amount (%): "))
 
 Tip = round(Subtotal * (Tip_percent/100), 2)
-Total = round(Subtotal + Tip, 2) #the round function here is actually unnecesarry but just to make sure
+Total = round(Subtotal + Tip, 2) #the round function here is actually redundant but just to make sure
 
 print("Subtotal: ${0:0.2f}".format(Subtotal))
 print("Tip: ${0:0.2f}".format(Tip))
