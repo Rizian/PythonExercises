@@ -18,6 +18,3 @@ y2 = float(y2)
 slope = (y2 - y1) / (x2 - x1)
 
 print("The slope of between the points ({0}, {1}) and ({2}, {3}) is {4:0.5f}.".format(x1, y1, x2, y2, slope)) 
-'''
-alternatively could use print(f"{x1}{y1}{x2}{y2}{slope:0.5}") instead of .format
-'''
