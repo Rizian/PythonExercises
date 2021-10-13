@@ -29,6 +29,6 @@ disc_total = subtotal * (disc_percent/100)
 total = subtotal - disc_total
 
 
-print("Subtotal: $99.00 x {0} = ${1:0.2f}".format(a, subtotal))
-print("Discount amount @ {0}% = ${1:0.2f}".format(disc_percent, disc_total))
-print("Total amount:           ${0:0.2f}".format(total))
+print("Subtotal: $99.00 x {0} = ${1:,.2f}".format(a, subtotal))
+print("Discount amount @ {0}% = ${1:,.2f}".format(disc_percent, disc_total))
+print("Total amount:           ${0:,.2f}".format(total))
